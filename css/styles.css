@@ -435,6 +435,10 @@ a {
   width: 1440px;
 }
 
+.logo-block {
+  margin-right: 120px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -459,10 +463,10 @@ a {
 
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 
 .social-block {
-  margin-left: 120px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -517,13 +521,13 @@ a {
   background-color: #31d0aa;
 }
 
-.footer-social-icon-box {
+/* .footer-social-icon-box {
   display: flex;
   width: 40px;
   height: 40px;
   align-items: center;
   justify-content: center;
-}
+} */
 
 .social-icon-item {
   width: 24px;
